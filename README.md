@@ -1,5 +1,6 @@
 # recon-all
-We all know that doing manual reconnaissance can be a very combusome task running multiple commands on your terminal from different tools etc. recon all is a tool that is created to do reconnaissance for you where all you have to do is give it a target domain, output name and the tool will do the rest for you. so far the tool does the following 
+Manual reconnaissance can often prove to be a cumbersome task, involving the execution of multiple commands through various tools on one's terminal. However, Recon-All presents itself as a solution to this issue by offering an automated approach to reconnaissance. By providing the tool with a target domain and output name, Recon-All undertakes the necessary reconnaissance steps on behalf of the user. Currently, the tool executes the following functions:
+
            1. Collects information from robots.txt and saves the output in robots.txt file 
            2. Perform subdomain enumeration and saves the output in subdomains.txt
            3. Checks the http status code for the subdomain and the output is saved in subdomain-status.txt
